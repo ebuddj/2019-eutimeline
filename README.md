@@ -30,7 +30,3 @@ Original source (SVT Datajournalistik) must be contributed.
 * Run `make` again 
 * Repeat above steps until satisfied
 * To build a version ready for deploy, run `make deploy` in `article/`. The files will be built to `article/dist`.
-
-
-
-
