@@ -1,0 +1,72 @@
+.base-text {
+    fill: #fff;
+    font-size: 35px;
+    font-family: Publik;
+}
+
+.result-text {
+    &.score {
+        font-size: 70px;
+    }
+    // &.subtext {
+        
+    // }
+}
+
+svg {
+    display: block;
+
+    max-height: 85vh;
+    margin: 0px auto;
+    max-width: 400px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.new {
+    cursor: pointer;
+}
+
+#next {
+    width: 100px;
+    // height: 25px;
+    margin: 35px auto;
+    border: 2px solid #1e69aa;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                              supported by Chrome and Opera */
+
+    p {
+        user-select: none;
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Safari */
+        -khtml-user-select: none;
+        /* Konqueror HTML */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+        color: #fff;
+        margin: 4px;
+    }
+}

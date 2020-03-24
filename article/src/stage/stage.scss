@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: Publik;
+    src: url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Light_2.woff2') format("woff2"), url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Light_2.woff') format("woff");
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Publik;
+    src: url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Bold_5.woff2') format("woff2"), url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Bold_5.woff') format("woff");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Publik;
+    src: url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Regular_3.woff2') format("woff2"), url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Regular_3.woff') format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Publik;
+    src: url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Black_3.woff2') format("woff2"), url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Black_3.woff') format("woff");
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Publik;
+    src: url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Italic_2.woff2') format("woff2"), url('https://www.svtstatic.se/resources/svtlib-font/fonts/PublikWeb-Italic_2.woff') format("woff");
+    font-weight: 400;
+    font-style: italic
+}
+
+body {
+    font-family: Publik, sans-serif;
+    max-width: 600px;
+    margin: 0px auto;
+    background: #003399;
+    // background: #0091ff;
+    color: #fff;
+}
+
+
+
+
+
+@import '../main';
